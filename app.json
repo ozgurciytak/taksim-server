@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "e7cb6d8b-9831-455d-91c8-6b76cf82ce2b"
+      }
+    },
+    "android": {
+      "package": "com.ozgurciytak.taksimbackend"
+    }
+  }
+}
