@@ -92,7 +92,7 @@
       "applicationFee": 10
     },
     "backend": {
-      "apiUrl": "http://192.168.1.36:3000"
+      "apiUrl": "https://taksim-server.onrender.com"
     }
   },
   "posts": [
@@ -119,5 +119,6 @@
       "description": "Esenyurt bölgesinde gece çalışacak güvenilir şoför aranıyor. Araç yeni ve bakımlıdır.",
       "date": "2026-03-18T16:51:56.000Z"
     }
-  ]
+  ],
+  "applications": []
 }
