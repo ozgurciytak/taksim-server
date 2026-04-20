@@ -29,6 +29,8 @@
       "role": "driver",
       "phone": "0555 111 11 11",
       "balance": 100,
+      "plateNumber": "34 TAK 34",
+      "ibbRegistration": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=500",
       "status": "active",
       "password": "123",
       "isApproved": true
@@ -40,6 +42,8 @@
       "role": "owner",
       "phone": "0555 222 22 22",
       "balance": 500,
+      "plateNumber": "34 T 1234",
+      "ibbRegistration": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=500",
       "status": "active",
       "password": "123",
       "isApproved": true
