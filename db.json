@@ -41,7 +41,7 @@
       "fullName": "Test Sahibi",
       "role": "owner",
       "phone": "0555 222 22 22",
-      "balance": 500,
+      "balance": 100,
       "plateNumber": "34 T 1234",
       "ibbRegistration": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=500",
       "status": "active",
@@ -61,7 +61,7 @@
       "merchantId": ""
     },
     "app": {
-      "applicationFee": 50
+      "applicationFee": 10
     }
   },
   "payments": [],
