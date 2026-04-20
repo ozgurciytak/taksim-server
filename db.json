@@ -8,7 +8,8 @@
       "phone": "0555 555 55 55",
       "balance": 0,
       "status": "active",
-      "password": "123456"
+      "password": "123456",
+      "isApproved": true
     },
     {
       "id": "2",
@@ -19,7 +20,8 @@
       "plateNumber": "34 TAK 123",
       "balance": 50,
       "status": "active",
-      "password": "123456"
+      "password": "123456",
+      "isApproved": true
     },
     {
       "id": "3",
@@ -32,7 +34,8 @@
       "rating": 4.8,
       "balance": 220,
       "status": "active",
-      "password": "123456"
+      "password": "123456",
+      "isApproved": true
     },
     {
       "id": "4",
@@ -45,7 +48,8 @@
       "rating": 4.9,
       "balance": 0,
       "status": "passive",
-      "password": "123456"
+      "password": "123456",
+      "isApproved": true
     },
     {
       "id": "5",
@@ -58,7 +62,8 @@
       "plateNumber": "34 ABC 789",
       "balance": 0,
       "status": "active",
-      "password": "123456"
+      "password": "123456",
+      "isApproved": true
     }
   ],
   "payments": [
