@@ -64,6 +64,17 @@
       "status": "active",
       "password": "123456",
       "isApproved": true
+    },
+    {
+      "id": "6",
+      "email": "admin@test.com",
+      "fullName": "Sistem Admin",
+      "role": "admin",
+      "phone": "0555 000 00 00",
+      "balance": 0,
+      "status": "active",
+      "password": "123",
+      "isApproved": true
     }
   ],
   "payments": [
