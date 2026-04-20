@@ -21,11 +21,43 @@
       "status": "active",
       "password": "123",
       "isApproved": true
+    },
+    {
+      "id": "sofor1",
+      "email": "sofor@test.com",
+      "fullName": "Test Şoför",
+      "role": "driver",
+      "phone": "0555 111 11 11",
+      "balance": 100,
+      "status": "active",
+      "password": "123",
+      "isApproved": true
+    },
+    {
+      "id": "sahip1",
+      "email": "sahip@test.com",
+      "fullName": "Test Sahibi",
+      "role": "owner",
+      "phone": "0555 222 22 22",
+      "balance": 500,
+      "status": "active",
+      "password": "123",
+      "isApproved": true
     }
   ],
   "systemSettings": {
     "backend": {
       "apiUrl": "https://taksim-server.onrender.com"
+    },
+    "payment": {
+      "iban": "TR00 1111 2222 3333 4444 55",
+      "companyTitle": "Taksim Yazılım A.Ş.",
+      "apiKey": "",
+      "apiSecret": "",
+      "merchantId": ""
+    },
+    "app": {
+      "applicationFee": 50
     }
   },
   "payments": [],
