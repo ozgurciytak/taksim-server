@@ -12,63 +12,9 @@
       "isApproved": true
     },
     {
-      "id": "2",
-      "email": "sahip@test.com",
-      "fullName": "Ahmet Yılmaz",
-      "role": "owner",
-      "phone": "0555 555 55 55",
-      "plateNumber": "34 TAK 123",
-      "balance": 50,
-      "status": "active",
-      "password": "123456",
-      "isApproved": true
-    },
-    {
-      "id": "3",
-      "email": "sofor@test.com",
-      "fullName": "Mehmet Demir",
-      "role": "driver",
-      "phone": "0555 555 55 55",
-      "tc": "12345678901",
-      "region": "Kadıköy",
-      "rating": 4.8,
-      "balance": 220,
-      "status": "active",
-      "password": "123456",
-      "isApproved": true
-    },
-    {
-      "id": "4",
-      "email": "yeni_sofor@test.com",
-      "fullName": "Can Polat",
-      "role": "driver",
-      "phone": "0532 111 22 33",
-      "tc": "99887766554",
-      "region": "Beşiktaş",
-      "rating": 4.9,
-      "balance": 0,
-      "status": "passive",
-      "password": "123456",
-      "isApproved": true
-    },
-    {
-      "id": "5",
-      "email": "yeni_sahip@test.com",
-      "fullName": "Zeynep Akar",
-      "role": "owner",
-      "phone": "0544 999 88 77",
-      "tc": "11223344556",
-      "region": "Şişli",
-      "plateNumber": "34 ABC 789",
-      "balance": 0,
-      "status": "active",
-      "password": "123456",
-      "isApproved": true
-    },
-    {
-      "id": "6",
+      "id": "admin",
       "email": "admin@test.com",
-      "fullName": "Sistem Admin",
+      "fullName": "Admin",
       "role": "admin",
       "phone": "0555 000 00 00",
       "balance": 0,
@@ -77,64 +23,12 @@
       "isApproved": true
     }
   ],
-  "payments": [
-    {
-      "id": "h6903y6z3",
-      "userId": "3",
-      "userName": "Mehmet Demir",
-      "amount": 100,
-      "type": "havale",
-      "status": "approved",
-      "date": "2026-03-18T13:33:21.670Z"
-    },
-    {
-      "id": "mu3pu45cp",
-      "userId": "3",
-      "userName": "Mehmet Demir",
-      "amount": 100,
-      "type": "havale",
-      "status": "approved",
-      "date": "2026-03-18T13:50:24.267Z"
-    }
-  ],
   "systemSettings": {
-    "payment": {
-      "iban": "",
-      "apiKey": "",
-      "apiSecret": "",
-      "merchantId": ""
-    },
-    "app": {
-      "applicationFee": 10
-    },
     "backend": {
       "apiUrl": "https://taksim-server.onrender.com"
     }
   },
-  "posts": [
-    {
-      "id": "p1",
-      "userId": "3",
-      "userName": "Mehmet Demir",
-      "userRole": "driver",
-      "type": "driver_looking_for_car",
-      "region": "Kadıköy",
-      "shift": "Gündüz",
-      "description": "Kadıköy bölgesinde gündüz çalışacak temiz taksi arıyorum. 10 yıllık tecrübem var.",
-      "date": "2026-03-18T16:51:56.000Z"
-    },
-    {
-      "id": "p2",
-      "userId": "2",
-      "userName": "Ahmet Yılmaz",
-      "userRole": "owner",
-      "type": "owner_looking_for_driver",
-      "region": "Esenyurt",
-      "plate": "34 TAK 123",
-      "shift": "Gece",
-      "description": "Esenyurt bölgesinde gece çalışacak güvenilir şoför aranıyor. Araç yeni ve bakımlıdır.",
-      "date": "2026-03-18T16:51:56.000Z"
-    }
-  ],
+  "payments": [],
+  "posts": [],
   "applications": []
 }
