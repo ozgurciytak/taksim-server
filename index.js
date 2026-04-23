@@ -80,7 +80,7 @@ router.render = (req, res) => {
 server.use(router);
 
 const PORT = process.env.PORT || 3000;
-server.listen(PORT, () => {
+server.listen(PORT, '0.0.0.0', () => {
   console.log(`Taksim Secure Server is running on port ${PORT}`);
   console.log(`API Key protection is ACTIVE.`);
 });
