@@ -8,12 +8,12 @@ const bcrypt = require('bcryptjs');
 const API_KEY = process.env.API_KEY || 'taksim-secret-key-2024';
 
 server.use(middlewares);
-server.use(jsonServer.json());
+server.use(jsonServer.bodyParser);
 
 // Şifreleme Middleware (POST ve PATCH istekleri için)
 server.use((req, res, next) => {
   if ((req.method === 'POST' || req.method === 'PATCH') && req.url.includes('/users')) {
-    if (req.body.password && !req.body.password.startsWith('$2a$')) {
+    if (req.body.password && !req.body.password.startsWith('$2')) {
       req.body.password = bcrypt.hashSync(req.body.password, 10);
     }
   }
