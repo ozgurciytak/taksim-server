@@ -8,7 +8,7 @@
       "phone": "0555 555 55 55",
       "balance": 0,
       "status": "active",
-      "password": "123",
+      "password": "$2b$10$F7s6opT8oV2luKhY6GTXV.8xFlkLrpyLmFw1itJC6tsn5bEHEb6HG",
       "isApproved": true
     },
     {
@@ -19,7 +19,7 @@
       "phone": "0555 000 00 00",
       "balance": 0,
       "status": "active",
-      "password": "123",
+      "password": "$2b$10$QDEqWMrGtdBazqkfd5wnxu6THTLIii1RwgwBkpGJLPYkba6AH4/vK",
       "isApproved": true
     },
     {
@@ -32,7 +32,7 @@
       "plateNumber": "34 TAK 34",
       "ibbRegistration": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=500",
       "status": "active",
-      "password": "123",
+      "password": "$2b$10$Etb02i593L7sowqy1PHG7uGyAW.gY4ON6uCjkg7cfZLsIAAtD.7zm",
       "isApproved": true,
       "residence": "Bağcılar",
       "driverLicense": "B Sınıfı (10 Yıl)"
@@ -47,7 +47,7 @@
       "plateNumber": "34 T 1234",
       "ibbRegistration": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=500",
       "status": "active",
-      "password": "123",
+      "password": "$2b$10$VGMUZyV7KkHo3ZBSp6Ybge8InsLtBovqfPALatihoo8zyWSQHoGmi",
       "isApproved": true
     }
   ],
