@@ -8,46 +8,7 @@
       "phone": "0555 555 55 55",
       "balance": 0,
       "status": "active",
-      "password": "$2b$10$F7s6opT8oV2luKhY6GTXV.8xFlkLrpyLmFw1itJC6tsn5bEHEb6HG",
-      "isApproved": true
-    },
-    {
-      "id": "admin",
-      "email": "admin@test.com",
-      "fullName": "Admin",
-      "role": "admin",
-      "phone": "0555 000 00 00",
-      "balance": 0,
-      "status": "active",
-      "password": "$2b$10$QDEqWMrGtdBazqkfd5wnxu6THTLIii1RwgwBkpGJLPYkba6AH4/vK",
-      "isApproved": true
-    },
-    {
-      "id": "sofor1",
-      "email": "sofor@test.com",
-      "fullName": "Ali Veli (Örnek Şoför)",
-      "role": "driver",
-      "phone": "0555 111 11 11",
-      "balance": 100,
-      "plateNumber": "34 TAK 34",
-      "ibbRegistration": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=500",
-      "status": "active",
-      "password": "$2b$10$Etb02i593L7sowqy1PHG7uGyAW.gY4ON6uCjkg7cfZLsIAAtD.7zm",
-      "isApproved": true,
-      "residence": "Bağcılar",
-      "driverLicense": "B Sınıfı (10 Yıl)"
-    },
-    {
-      "id": "sahip1",
-      "email": "sahip@test.com",
-      "fullName": "Mehmet Sahibi",
-      "role": "owner",
-      "phone": "0555 222 22 22",
-      "balance": 1000,
-      "plateNumber": "34 T 1234",
-      "ibbRegistration": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=500",
-      "status": "active",
-      "password": "$2b$10$VGMUZyV7KkHo3ZBSp6Ybge8InsLtBovqfPALatihoo8zyWSQHoGmi",
+      "password": "$2b$10$aM7edclj95h7IJJ5BtikXudOlK6P07HayhgzBXAho9OTdSC07Z0he",
       "isApproved": true
     }
   ],
@@ -69,33 +30,6 @@
   "payments": [],
   "posts": [],
   "applications": [],
-  "referanslar": [
-    {
-      "id": "ref1",
-      "driverId": "sofor1",
-      "driverName": "Ali Veli (Örnek Şoför)",
-      "ownerId": "sahip1",
-      "ownerName": "Eski Durak Başkanı Ahmet",
-      "ownerPhone": "0532 000 00 00",
-      "plate": "34 T 5566",
-      "reason": "Aracı sattığım için ayrılmak zorunda kaldı, yoksa çok memnundum.",
-      "rating": 5,
-      "date": "2026-03-15T10:00:00.000Z",
-      "shareContact": true
-    },
-    {
-      "id": "ref2",
-      "driverId": "sofor1",
-      "driverName": "Ali Veli (Örnek Şoför)",
-      "ownerId": "sahip2",
-      "ownerName": "Galeri Niyazi",
-      "ownerPhone": "0544 111 11 11",
-      "plate": "34 TAC 34",
-      "reason": "Gece vardiyasında çalıştı, kurallara uyan bir arkadaştır.",
-      "rating": 4,
-      "date": "2025-11-20T15:30:00.000Z",
-      "shareContact": false
-    }
-  ],
+  "referanslar": [],
   "vehicles": []
 }
