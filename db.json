@@ -10,6 +10,17 @@
       "status": "active",
       "password": "$2b$10$aM7edclj95h7IJJ5BtikXudOlK6P07HayhgzBXAho9OTdSC07Z0he",
       "isApproved": true
+    },
+    {
+      "id": "2",
+      "email": "sofor@test.com",
+      "fullName": "Test Şoför",
+      "role": "driver",
+      "phone": "0555 111 22 33",
+      "balance": 0,
+      "status": "active",
+      "password": "$2b$10$.kk3Txc433gG5Xfr9Fwz9uQtUh3mEsDdjfe5LmrnHqTX5P1617goC",
+      "isApproved": true
     }
   ],
   "systemSettings": {
